@@ -1,0 +1,18 @@
+{
+    "sourceFile": "style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1686593233740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1686593233740,
+            "name": "Commit-0",
+            "content": "@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');\r\n\r\n*,\r\n*::before,\r\n*::after {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  font-family: 'Poppins', sans-serif;\r\n  font-size: 16px;\r\n  line-height: 1.5;\r\n  color: #333;\r\n  background-color: #f5f5f5;\r\n}\r\n\r\nheader {\r\n  display: flex;\r\n  justify-content: flex-start;\r\n  align-items: center;\r\n  margin-bottom: 20px;\r\n}\r\n\r\nheader h1 {\r\n  font-weight: 300;\r\n  margin-left: 10px;\r\n}\r\n\r\n.container {\r\n  max-width: 500px;\r\n  margin: 30px auto;\r\n  padding: 20px;\r\n}\r\n\r\n/* Form & Input */\r\n.form-input {\r\n  width: 100%;\r\n  font-size: 18px;\r\n  margin-bottom: 20px;\r\n  padding: 10px;\r\n  border: 1px solid #ccc;\r\n  border-radius: 5px;\r\n  outline: none;\r\n}\r\n\r\n.form-input-filter {\r\n  margin-top: 20px;\r\n  width: 100%;\r\n  font-size: 18px;\r\n  margin-bottom: 20px;\r\n  padding: 10px;\r\n  border: none;\r\n  border-bottom: 1px solid #ccc;\r\n  background: transparent;\r\n  outline: none;\r\n}\r\n\r\n/* Buttons */\r\n.btn {\r\n  background-color: #333;\r\n  color: #fff;\r\n  border: none;\r\n  border-radius: 5px;\r\n  padding: 10px 20px;\r\n  cursor: pointer;\r\n}\r\n\r\n.btn:hover {\r\n  background-color: #444;\r\n}\r\n\r\n.btn-link {\r\n  font-size: 16px;\r\n  background-color: transparent;\r\n  color: #333;\r\n  border: none;\r\n  padding: 0;\r\n  cursor: pointer;\r\n}\r\n\r\n.btn-clear {\r\n  margin-top: 20px;\r\n  width: 100%;\r\n  font-size: 16px;\r\n  background-color: transparent;\r\n  color: #333;\r\n  border: 1px solid #ccc;\r\n  border-radius: 5px;\r\n  padding: 10px 20px;\r\n  cursor: pointer;\r\n}\r\n\r\n.btn-clear:hover {\r\n  background-color: #f1f1f1;\r\n}\r\n\r\n.text-red {\r\n  color: red;\r\n}\r\n\r\n/* Items */\r\n.items {\r\n  margin-top: 20px;\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n}\r\n\r\n.items li {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  width: 45%;\r\n  border: 1px solid #ccc;\r\n  border-radius: 5px;\r\n  padding: 10px 15px;\r\n  margin: 0 5px 20px;\r\n  font-weight: 700;\r\n}\r\n\r\n@media (max-width: 500px) {\r\n  .items li {\r\n    width: 100%;\r\n  }\r\n}\r\n"
+        }
+    ]
+}
